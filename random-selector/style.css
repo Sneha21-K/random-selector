@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: 'Poppins', 'sans-serif';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: url(DOC-20230601-WA0006..jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px 0 20px;
+  text-decoration-color: beige;
+}
+
+h3 > span {
+  font-weight: 300;
+  text-decoration-color: beige;
+}
+
+.container {
+  width: 90%; 
+}
+
+textarea {
+  border: none; 
+  display: block;
+  width: 100%;
+  height: 100px;
+  font-family: inherit;
+  padding: 10px;
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+.tag {
+  color: black;
+  background-color: #FECD70;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  display: inline-block;
+}
+
+.tag.highlight {
+  background-color: #7d59c0;
+}
+
+@media (min-width: 550px) {
+
+  .container {
+    width: 500px;
+  }
+
+  .textarea {
+    font-size: 16px;
+  }
+}
